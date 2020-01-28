@@ -11,7 +11,7 @@ team.  The standards will include common Python Developer Guide recommendations
 from the core Python developers group and UHN specific standards.
 
 
-## Python verion
+## Python 2 vs 3
 Use Python 3 where possible.  As of January 1, 2020 support for Python 2 has
 reached end of life.  Where modules/frameworks/packages require Python 2,
 exceptions will be granted for development under this version until updates
@@ -110,7 +110,7 @@ prior to every checkin into `Github` and the provided CI/CD tool found in
 For access to the team repositories, please contact <zhibin.lu@uhnresearch.ca> or
 <richard.deborja@uhnresearch.ca>.
 
-### Git branch-merge-pr
+### Git branch-commit-pr
 All code should be checked in.  When developing code, ensure that you do
 not check-in code to `master` directly.  Instead, `branch` code with a name
 based on the feature being added or bug fix being implemented.  When the
