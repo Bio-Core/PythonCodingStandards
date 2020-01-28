@@ -103,6 +103,10 @@ uses both:
 * [Github](https://github.com/bio-core)
 * [Gitlab](https://gitlab.com/biocore)
 
+Note that [Travis CI](https://travis-ci.com/) should be used to test code
+prior to every checkin into `Github` and the provided CI/CD tool found in
+`GitLab`.
+
 For access to the team repositories, please contact <zhibin.lu@uhnresearch.ca> or
 <richard.deborja@uhnresearch.ca>.
 
