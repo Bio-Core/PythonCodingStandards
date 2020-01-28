@@ -54,6 +54,26 @@ application with minimal effort.  `Flask` utilizes a templating engine to
 construct the necessary files and allows embedding of Python into HTML.
 
 
+### UHN web CSS and JS linking
+The team has developed and distributes a common CSS theme which should be used
+to provide a consistent web application feel.  The stylesheet can be linked
+at the head of a HTML page using:
+```
+<link rel="stylesheet" href="https://pmgenomics.ca/cdn/css/style.css">
+```
+
+In addition, custom Javascript code has been created in conjunctions with the
+CSS file to provide interactivity and animation.  These files are also
+distributed by the team and can be referenced as follows:
+```
+<script src="https://pmgenomics.ca/cdn/js/main.js"></script>
+<script src="https://pmgenomics.ca/cdn/js/tabView.js"></script>
+```
+
+The source code for both the CSS and Javascript can be found here:
+* <https://gitlab.com/biocore/tobecdn>
+
+
 ## SQL connectivity
 The team utilizes several databases to store and fetch data.  This may include:
 * MySQL
@@ -67,6 +87,13 @@ to connect applications using Python syntax instead of SQL.
 
 ## noSQL connectivity
 `To be completed`
+
+
+### Web tutorial
+A YouTube tutorial from Corey Schafer provides a basic introduction of the
+`Flask` framework and connectivity to a database using `SQLAlchemy` and
+can be found here:
+* <https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH>
 
 
 # Version control
