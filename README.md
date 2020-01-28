@@ -96,7 +96,7 @@ can be found here:
 * <https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH>
 
 
-# Version control
+## Version control
 All code should be managed using [Git](https://git-scm.com) and stored in a
 repostory accessible by the team.  Currently the UHN HPC and BioCore team
 uses both:
