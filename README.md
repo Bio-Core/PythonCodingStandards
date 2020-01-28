@@ -111,3 +111,13 @@ For access to the team repositories, please contact <zhibin.lu@uhnresearch.ca> o
 <richard.deborja@uhnresearch.ca>.
 
 
+## Code Editors
+Although not strictly a requirement, it is highly recommended that one of the
+following text editors be used when developing Python code:
+* Visual Studio Code <https://code.visualstudio.com>
+* Sublime Text <https://www.sublimetext.com>
+
+Both editors are available for macOS, Windows and Linux.  While not currently
+available, code snippets are being constructed to provide an editable template
+for code.  Once completed, code snippets will be checked into a Git repository
+for use by all of UHN.
