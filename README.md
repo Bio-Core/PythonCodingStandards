@@ -110,6 +110,13 @@ prior to every checkin into `Github` and the provided CI/CD tool found in
 For access to the team repositories, please contact <zhibin.lu@uhnresearch.ca> or
 <richard.deborja@uhnresearch.ca>.
 
+### Git branch-merge-pr
+All code should be checked in.  When developing code, ensure that you do
+not check-in code to `master` directly.  Instead, `branch` code with a name
+based on the feature being added or bug fix being implemented.  When the
+feature/fix is completed, submit a pull request (pr) into `master` and have
+it reviewed by a peer.
+
 
 ## Code Editors
 Although not strictly a requirement, it is highly recommended that one of the
